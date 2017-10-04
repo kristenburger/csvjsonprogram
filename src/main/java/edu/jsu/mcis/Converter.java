@@ -210,7 +210,7 @@ public class Converter {
 				
 			
                 
-						rowdata[0] = csvrow[i];
+					rowdata[0] = csvrow[i];
                
 
             
@@ -221,9 +221,9 @@ public class Converter {
                 
                 // INSERT YOUR CODE HERE
               
-						for (int x = 0; x < rowdata.length; x++) {
+					for (int x = 0; x < rowdata.length; x++) {
                 
-								rowdata[i] = elements[x-1];
+							rowdata[x] = elements[x-1];
 
 						} 
 			    
