@@ -219,9 +219,9 @@ public class Converter {
               
 			
 			   
-			    for (int x = 1; x < elements(); x++) {
-			   rowdata[i] = elements[x] + "";
-			}
+			    
+			   rowdata[i] = elements[i] + "";
+			
 			   
 				
 				
