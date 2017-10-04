@@ -218,9 +218,9 @@ public class Converter {
                 // INSERT YOUR CODE HERE
               
 			
-			 for (int i = 1; i < elements.length; i++) {  
+			 for (int x = 1; x < elements.length; x++) {  
 			    
-			   rowdata[i] = elements[i] + "";
+			   rowdata[i] = elements[x] + "";
 			}
 			   
 				
