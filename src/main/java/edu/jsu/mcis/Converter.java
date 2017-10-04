@@ -210,7 +210,7 @@ public class Converter {
 				
 				
 			 
-               rowdata[0] = String[] csvrow;
+               rowdata[0] = csvrow[i];
 		
                 
                 /* Copy row elements into remaining elements of "rowdata" */
@@ -219,7 +219,7 @@ public class Converter {
               
 			 
 			    
-			   rowdata = elements;
+			   rowdata[i] = elements[i];
 			
 			  
 				
