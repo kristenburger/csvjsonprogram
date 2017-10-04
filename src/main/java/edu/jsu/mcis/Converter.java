@@ -193,11 +193,11 @@ public class Converter {
                 
                 csvdata[i] = csvdata[i].replace("[","");
                 csvdata[i] = csvdata[i].replace("]","");
-			}
+			
                 /* Split csvdata[i] into row elements (using comma as delimiter) */
 
                 String[] elements = csvdata[i].split(",");
-                
+			} 
                 /* Create String[] container for row data (sized at the number of row elements, plus one for row header) */
                 
                 rowdata = new String[elements.length + 1];
@@ -222,7 +222,7 @@ public class Converter {
 			    
 			   rowdata[i] = elements[i];
 			
-			   
+			 }  
 				
 				
                 /* Write new row */
