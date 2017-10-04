@@ -211,7 +211,7 @@ public class Converter {
                 
                 // INSERT YOUR CODE HERE
               
-				rowdata[elements.length] = elements[i];
+				rowdata[i] = elements[i];
 			   
 			
 				
