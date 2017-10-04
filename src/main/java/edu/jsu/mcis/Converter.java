@@ -209,9 +209,9 @@ public class Converter {
 				
 				
 				
-				 for (int i = 0; i < csvrow.size(); i++) {
-                rowdata[i] = csvrow(i) + "";
-            }
+				 
+                rowdata[0] = csvrow(i) + "";
+           
                 
                 /* Copy row elements into remaining elements of "rowdata" */
                 
@@ -219,9 +219,9 @@ public class Converter {
               
 			
 			   
-			   for (int i = 1; i < csvdata(); i++) {
-				   rowdata[i] = csvdata[i] + "";
-			   }
+			    for (int i = 1; i < csvdata(); i++) {
+			   rowdata[i] = csvdata[i] + "";
+			}
 			
 				
 				
