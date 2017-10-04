@@ -205,13 +205,13 @@ public class Converter {
                 /* Copy row header into first element of "rowdata" */
 
                 // INSERT YOUR CODE HERE
-				rowdata[0] = csvrow[i];
+				rowdata = csvrow;
                 
                 /* Copy row elements into remaining elements of "rowdata" */
                 
                 // INSERT YOUR CODE HERE
               
-				rowdata[i] = elements[i];
+				rowdata = elements;
 			   
 			
 				
