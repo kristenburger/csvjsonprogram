@@ -206,14 +206,14 @@ public class Converter {
                 /* Copy row header into first element of "rowdata" */
 
                 // INSERT YOUR CODE HERE
-			}	
 				
-			for (int i = 0; i < csvrow.length; i++) {
+				
+			
                 
-                rowdata[0] = csvrow[i] + "";
+						rowdata[0] = csvrow[i];
                
 
-            }
+            
 			
 		
                 
@@ -221,11 +221,11 @@ public class Converter {
                 
                 // INSERT YOUR CODE HERE
               
-			for (int i = 0; i < elements.length; i++) {
+						for (int x = 0; x < rowdata.length; x++) {
                 
-                rowdata[i] = elements[i];
+								rowdata[x] = elements[x-1];
 
-            } 
+						} 
 			    
 			   
 			
@@ -234,8 +234,9 @@ public class Converter {
 				
                 /* Write new row */
                 
-            csvWriter.writeNext(rowdata);
-                
+				csvWriter.writeNext(rowdata);
+            
+			}
             
             
         }
