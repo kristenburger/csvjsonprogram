@@ -161,6 +161,7 @@ public class Converter {
             String[] csvrow = new String[row.size()];
             String[] csvdata = new String[data.size()];
             String[] rowdata;
+			String[] elements;
             
             /* Copy column headers */
 
