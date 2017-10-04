@@ -219,8 +219,8 @@ public class Converter {
               
 			
 			   
-			    for (int i = 1; i < csvdata; i++) {
-			   rowdata[i] = csvdata[i] + "";
+			    for (int i = 1; i < csvdata.size; i++) {
+			   rowdata[i] = csvdata.get(i) + "";
 			}
 			
 				
