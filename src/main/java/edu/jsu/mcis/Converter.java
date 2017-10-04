@@ -205,13 +205,13 @@ public class Converter {
                 /* Copy row header into first element of "rowdata" */
 
                 // INSERT YOUR CODE HERE
-				rowdata = csvrow;
+				rowdata[0] = new String[csvrow];
                 
                 /* Copy row elements into remaining elements of "rowdata" */
                 
                 // INSERT YOUR CODE HERE
               
-				rowdata = elements;
+				rowdata[i] = new String[elements];
 			   
 			
 				
