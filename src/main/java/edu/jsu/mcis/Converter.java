@@ -219,8 +219,8 @@ public class Converter {
               
 			
 			   
-			    for (int x = 1; x < csvdata(); x++) {
-			   rowdata[i] = csvdata[x] + "";
+			    for (int x = 1; x < elements x++) {
+			   rowdata[i] = elements[x] + "";
 			}
 			   
 				
