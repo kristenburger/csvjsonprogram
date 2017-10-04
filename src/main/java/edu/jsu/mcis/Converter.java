@@ -221,7 +221,7 @@ public class Converter {
                 
                 // INSERT YOUR CODE HERE
               
-			for (int i = 0; i < elements(); i++) {
+			for (int i = 0; i < elements.length; i++) {
                 
                 rowdata[i] = elements[i];
 
