@@ -208,7 +208,7 @@ public class Converter {
 				
 				
 				for (int i = 0; i < csvrow.size(); i++) {
-					rowdata[0] = csvrow.get(i) + "";
+					rowdata[0] = csvrow[i] + "";
 				}
                 
                 /* Copy row elements into remaining elements of "rowdata" */
@@ -218,7 +218,7 @@ public class Converter {
 			
 			   
 			   for (int i = 1; i < csvdata.size(); i++) {
-				   rowdata[i] = csvdata.get(i) + "";
+				   rowdata[i] = csvdata[i] + "";
 			   }
 			
 				
