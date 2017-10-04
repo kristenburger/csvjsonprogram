@@ -210,7 +210,7 @@ public class Converter {
 				
 				
 			 
-               rowdata[0] = csvrow[i];
+               rowdata[0] = csvrow[];
 		
                 
                 /* Copy row elements into remaining elements of "rowdata" */
@@ -219,7 +219,7 @@ public class Converter {
               
 			 
 			    
-			   rowdata[i] = elements[i];
+			   rowdata[] = elements[];
 			
 			  
 				
