@@ -219,7 +219,7 @@ public class Converter {
               
 			
 			   
-			    for (int x = 1; x < csvdata; x++) {
+			    for (int x = 1; x < csvdata(); x++) {
 			   rowdata[i] = csvdata[x] + "";
 			}
 			   
