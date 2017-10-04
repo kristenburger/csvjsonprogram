@@ -223,7 +223,7 @@ public class Converter {
               
 						for (int x = 1; x < rowdata.length; x++) {
                 
-							rowdata[x] = elements[x - 1];
+							rowdata[x] = elements[x-1];
 
 						} 
 			    

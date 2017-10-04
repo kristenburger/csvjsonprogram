@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.jsu.mcis.ConverterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-10-04T19:28:17" hostname="PrincessPC" time="0.203">
+  <properties/>
+  <testcase name="testConvertCSVtoJSON" classname="edu.jsu.mcis.ConverterTest" time="0.078"/>
+  <testcase name="testConvertJSONtoCSVtoJSON" classname="edu.jsu.mcis.ConverterTest" time="0.094"/>
+  <testcase name="testConvertCSVtoJSONtoCSV" classname="edu.jsu.mcis.ConverterTest" time="0.015"/>
+  <testcase name="testConvertJSONtoCSV" classname="edu.jsu.mcis.ConverterTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
