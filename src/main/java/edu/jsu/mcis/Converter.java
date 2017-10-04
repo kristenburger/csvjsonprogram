@@ -205,14 +205,21 @@ public class Converter {
                 /* Copy row header into first element of "rowdata" */
 
                 // INSERT YOUR CODE HERE
-				rowdata[0] = new String[csvrow];
+				
+				
+				for (int i = 0; i < csvrow.size(); i++) {
+					rowdata[0] = csvrow.get(i) + "";
+				}
                 
                 /* Copy row elements into remaining elements of "rowdata" */
                 
                 // INSERT YOUR CODE HERE
               
-				rowdata[i] = new String[elements];
+			
 			   
+			   for (int i = 1; i < csvdata.size(); i++) {
+				   rowdata[i] = csvdata.get(i) + "";
+			   }
 			
 				
 				
