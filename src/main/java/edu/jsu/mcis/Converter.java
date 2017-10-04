@@ -219,10 +219,10 @@ public class Converter {
               
 			
 			   
-			   { for (int i = 1; i < csvdata.size; i++) {
-			   rowdata[i] = csvdata.get(i) + "";
+			    for (int x = 1; x < csvdata; x++) {
+			   rowdata[i] = csvdata[x] + "";
 			}
-			   }
+			   
 				
 				
                 /* Write new row */
