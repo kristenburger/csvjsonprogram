@@ -205,11 +205,17 @@ public class Converter {
                 /* Copy row header into first element of "rowdata" */
 
                 // INSERT YOUR CODE HERE
+				rowdata[0].add(csvrow[i]);
                 
                 /* Copy row elements into remaining elements of "rowdata" */
                 
                 // INSERT YOUR CODE HERE
-                
+                for (int i = 1; i < csvdata.length; i++){
+					row.add(csvdata[i]);
+				}
+				
+				data.add(rowdata);
+				
                 /* Write new row */
                 
                 csvWriter.writeNext(rowdata);
