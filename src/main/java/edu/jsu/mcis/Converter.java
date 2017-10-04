@@ -210,10 +210,9 @@ public class Converter {
                 /* Copy row elements into remaining elements of "rowdata" */
                 
                 // INSERT YOUR CODE HERE
-               
-			   for (int i = 1; i < elements.length; i++) {
-					rowdata[i] = elements[i];
-			   }
+              
+				rowdata = elements;
+			   
 			
 				
 				
