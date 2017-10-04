@@ -197,7 +197,7 @@ public class Converter {
                 /* Split csvdata[i] into row elements (using comma as delimiter) */
 
                 String[] elements = csvdata[i].split(",");
-			} 
+			 
                 /* Create String[] container for row data (sized at the number of row elements, plus one for row header) */
                 
                 rowdata = new String[elements.length + 1];
@@ -217,8 +217,7 @@ public class Converter {
                 
                 // INSERT YOUR CODE HERE
               
-			
-			 for (int i = 1; i < elements.length; i++){  
+			 
 			    
 			   rowdata[i] = elements[i];
 			
