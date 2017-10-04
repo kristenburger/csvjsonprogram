@@ -218,10 +218,10 @@ public class Converter {
                 // INSERT YOUR CODE HERE
               
 			
-			   
+			 for (int i = 1; i < elements(); i++) {  
 			    
 			   rowdata[i] = elements[i] + "";
-			
+			}
 			   
 				
 				
